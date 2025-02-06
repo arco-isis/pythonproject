@@ -1,0 +1,10 @@
+Tomate,0.5,1.0
+Batata,0.3,0.8
+Cebola,0.2,0.5
+Alface,0.3,0.4
+Couve,0.4,0.7
+Pimento,0.5,1.0
+Cenoura,0.1,0.3
+Feijão-verde,0.4,0.6
+Abóbora,1.0,1.5
+Espinafre,0.2,0.3
