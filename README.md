@@ -5,14 +5,15 @@ Os passos utilizados para escrever o programa foram:
 Importações
 
 -abstractmethod
-import math: Importa o módulo math, que fornece funções matemáticas, como pi, que é usado para calcular a área de um círculo.
+
+-import math: Importa o módulo math, que fornece funções matemáticas, como pi, que é usado para calcular a área de um círculo.
 
 -from abc import ABC, abstractmethod: Importa ABC e abstractmethod do módulo abc (Abstract Base Classes), que são usados para criar classes abstratas em Python.
 
 Classe Abstrata Campo
 pass
 
--class Campo(ABC):: Define uma classe abstrata Campo que herda de ABC. Isso significa que Campo não pode ser instanciada diretamente e serve como uma base para outras classes.
+-class Campo(ABC): Define uma classe abstrata Campo que herda de ABC. Isso significa que Campo não pode ser instanciada diretamente e serve como uma base para outras classes.
 
 -@abstractmethod: Decora o método calcular_area, indicando que qualquer classe derivada de Campo deve implementar este método.
 
